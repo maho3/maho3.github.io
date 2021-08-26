@@ -41,7 +41,7 @@
                     <li><a href="https://github.com/maho3"><i class="fa fa-github-alt"></i></a></li>               
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="assets/doc/Ho_Matthew_CV.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Curriculum Vitae </a>              
+            <a class="btn btn-cta-primary pull-right" href="assets/doc/Ho_Matthew_CV.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Academic Curriculum Vitae </a>              
         </div><!--//container-->
     </header><!--//header-->
     
@@ -52,8 +52,10 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-				<p> I'm a fourth-year CMU Physics PhD candidate working at the McWilliams Center for Cosmology. I'm interested in applying various methods of statistics and machine learning to advance studies in computational and observational cosmology. </p>
-                            <p>In addition to my thesis work, I am an active member in the LSST Dark Energy Science Collaboration, where I develop analysis pipelines for cluster mass measurements and weak lensing maps. I also organize the CMU Physics Industry Speaker Series and play on the department soccer team, Manfred United. Check out my <a href="https://github.com/maho3" target="_blank">Github</a> for a comprehensive and up-to-date list of my current projects.</p>
+				<p> I'm a fifth-year CMU Physics PhD candidate working at the McWilliams Center for Cosmology. I'm interested in applying various methods of statistics and machine learning to advance studies in computational and observational cosmology. In addition to my thesis work, I am an active member in the LSST Dark Energy Science Collaboration, where I develop analysis pipelines for cluster mass measurements and weak lensing maps. I also organize the CMU Physics Industry Speaker Series and enjoy cycling, soccer, and playing chess. </p>
+
+                            <p>For comprehensive information about my publications and academic background, check out my <a href="assets/doc/Ho_Matthew_CV.pdf">curriculum vitae</a>. For a more up-to-date, but less polished, list of my current projects, check out my <a href="https://github.com/maho3" target="_blank">Github</a>. </p>
+
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -65,10 +67,22 @@
                         <div class="content">
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="https://ui.adsabs.harvard.edu/abs/2020arXiv200613231H/abstract" target="_blank">
+                                <img class="img-responsive project-image" style="border: #DAE3E7 2px solid" src="assets/images/projects/coma_small.jpg" alt="coma_cluster" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title text-left">The Dynamical Mass of the Coma Cluster from Deep Learning (2021, Submitted to Nature Astronomy)</h3>
+                                    <div class="desc text-left"> 
+                                        <p>In this analysis, we apply our neural network methodology to recover a dynamical mass estimate of the famous Coma cluster. We utilize our approximate Bayesian uncertainty methods to predict Coma's mass to be 10<sup>14.92 &plusmn 0.12</sup> h<sup>-1</sup>M<sub>&#8857</sub> within 1.55 &plusmn 0.02 h<sup>-1</sup> Mpc of its center. We find that these predictions are statistically consistent with historical estimates of Coma's virial mass, with strong consistency among estimates of the past two decades.</p>
+                                    </div>
+                                </div><!--//desc-->                          
+                            </div><!--//item--> 
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://ui.adsabs.harvard.edu/abs/2020arXiv200613231H/abstract" target="_blank">
                                 <img class="img-responsive project-image" style="border: #DAE3E7 2px solid" src="assets/images/projects/approx_bayes.png" alt="approx_bayes" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title text-left">Approximate Bayesian Uncertainties on Deep Learning Dynamical Mass Estimates of Galaxy Clusters (<a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200613231H/abstract" target="_blank">arXiv:2006.13231</a>, Submitted to ApJ)</h3>
+                                    <h3 class="title text-left">Approximate Bayesian Uncertainties on Deep Learning Dynamical Mass Estimates of Galaxy Clusters (<a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200613231H/abstract" target="_blank">2021 ApJ, 908, 204</a>)</h3>
                                     <div class="desc text-left"> 
                                         <p>We study methods for reconstructing Bayesian uncertainties on dynamical mass estimates of galaxy clusters using Convolutional Neural Networks (CNNs). We show that Bayesian CNNs produce highly accurate dynamical cluster mass posteriors. These model posteriors are log-normal in cluster mass and recover 68% and 90% confidence intervals to within 1% of their measured value. We note how this rigorous modelling of dynamical mass posteriors is necessary for using cluster abundance measurements to constrain cosmological parameters.</p>
                                     </div>
@@ -80,7 +94,7 @@
                                 <img class="img-responsive project-image" style="border: #DAE3E7 2px solid" src="assets/images/projects/halo_cnn_small.png" alt="halo_cnn" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title text-left">A Robust and Efficient Deep Learning Method for Dynamical Mass Measurements of Galaxy Clusters (<a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...887...25H" target="_blank">ApJ, 887, 1</a>)</h3>
+                                    <h3 class="title text-left">A Robust and Efficient Deep Learning Method for Dynamical Mass Measurements of Galaxy Clusters (<a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...887...25H" target="_blank">2019 ApJ, 887, 1</a>)</h3>
                                     <div class="desc text-left"> 
                                         <p>We demonstrate the ability of Convolutional Neural Networks (CNNs) to mitigate systematics in the virial scaling relation and produce dynamical mass estimates of galaxy clusters with remarkably low bias and scatter. We present two models, CNN1D and CNN2D, which leverage this deep learning tool to infer cluster masses from distributions of member galaxy dynamics.</p>
                                     </div>
@@ -121,38 +135,39 @@
                         </div> 
                     </div>             
                 </section>-->
-               <section class="experience section">
+               <!-- <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Selected Talks</h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title" style="padding-left: 30px; text-indent: -15px"><i class="fa fa-group" style="padding-right: 10px"></i> Galaxy Cluster Mass Estimation Using Deep Learning</h3>
                                 <p style="padding-left: 50px"> Astrostatistics Interest Group, Joint Statistical Meeting, August 2020 </p>
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title" style="padding-left: 30px; text-indent: -15px"><i class="fa fa-group" style="padding-right: 10px"></i> Galaxy Cluster Mass Estimation Using Deep Learning</h3>
                                 <p style="padding-left: 50px"> Weak Lensing Seminar, Universitaets-Sternwarte der Ludwig-Maximilians-Universitaet, June 2019 </p>
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title" style="padding-left: 30px; text-indent: -15px"><i class="fa fa-group" style="padding-right: 10px"></i>  A Robust and Efficient Deep Learning Method for Dynamical Mass Measurements of Galaxy Clusters</h3>
                                 <p style="padding-left: 50px"> Artificial Intelligence Methods in Cosmology Workshop, Ascona, Switzerland, June 2019 </p>
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title" style="padding-left: 30px; text-indent: -15px"><i class="fa fa-group" style="padding-right: 10px"></i>  Improving Mass Measurements of Galaxy Clusters through Applications of Machine Learning</h3>
                                 <p style="padding-left: 50px">  Machine Learning in Science and Engineering Conference, CMU, May 2018 </p>
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title" style="padding-left: 30px; text-indent: -15px"><i class="fa fa-group" style="padding-right: 10px"></i>  Dynamic Particle Control and Simulation</h3>
                                 <p style="padding-left: 50px"> NCSA Students Pushing  Innovation Seminar, National Center for Supercomputing Applications, April 2015 </p>
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title" style="padding-left: 30px; text-indent: -15px"><i class="fa fa-group" style="padding-right: 10px"></i>  Gestural Recognition of Human Expression</h3>
                                 <p style="padding-left: 50px">  NCSA Students Pushing Innovation Seminar, National Center forSupercomputing Applications, December 2014, <i>Awarded top three presenter</i> </p>
-                            </div><!--//item-->
+                            </div>
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+                        </div>
+                    </div>                 
+                </section> -->
+
                
                 <section class="projects section">
                     <div class="section-inner">
@@ -164,27 +179,27 @@
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
                 
-                <section class="experience section">
+                <!-- <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Quantitative Trading Intern - <span class="place"><a href="#">Virtu Financial, KCG Holdings LLC</a></span> <span class="year">(2016 - 2017)</span></h3>
                                 <p>Applied machine learning and data mining techniques to signal research in ETF, Eurodollar future, and US commodity future markets.</p>
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title">Undergraduate Researcher - <span class="place"><a href="#">UIUC Physics</a></span> <span class="year">(2015 - 2017)</span></h3>
                                 <p>Developed data mining software to gather, parse, and analyze published results regarding magnetic and electronic properties of known superconductors. Identified new potential superconductors based on structural patterns of known materials.</p>
-                            </div><!--//item-->
+                            </div>
                             
                             <div class="item">
                                 <h3 class="title">Students Pushing Innovation Fellow - <span class="place"><a href="#">NCSA</a></span> <span class="year">(2014 - 2015)</span></h3>
                                 <p>Developed a machine learning algorithm to interpret expressive human movement in an artistic performance. Implemented a simulation control system to visualize physical expression in live performance.</p>
-                            </div><!--//item-->
+                            </div>
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+                        </div>
+                    </div>               
+                </section> -->
             </div><!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                  <aside class="info aside section">
@@ -205,11 +220,15 @@
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Ph.D. Physics</h3>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Ph.D., M.S. Physics</h3>
                                 <h4 class="university">Carnegie Mellon University <span class="year">(2017-2022)</span></h4>
                             </div><!--//item-->
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> M.S. Machine Learning</h3>
+                                <h4 class="university">Carnegie Mellon University <span class="year">(2021-2022)</span></h4>
+                            </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Engineering Physics</h3>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B.S. Engineering Physics</h3>
                                 <h4 class="university">University of Illinois at Urbana-Champaign <span class="year">(2014-2017)</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
@@ -239,7 +258,7 @@
                 </aside><!--//section-->
                 
                 
-                <aside class="info aside section">
+                <!-- <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading">Media</h2>
                         <div class="content">
@@ -249,14 +268,14 @@
 				<li><i class="fa fa-youtube-play"></i> <a href="https://www.youtube.com/watch?v=3n-mqe8fx-o" target="_blank"> Talk: Gestural Recognition and Dynamic Particle Control</a> (NCSA 2014)</li>
                                 <li><i class="fa fa-newspaper-o"></i><a href="http://www.plasmacoalition.org/plasma_pages/pp_jul2013.htm" target="_blank">"Fusor Team wins CPS Plasma Excellence Award at Intel ISEF"</a> (CPS 2013)</li>
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                    </div>
+                </aside> -->
               <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Last Updated</h2>
                         <div class="content">
-                            <b>Last Updated</b>: August 31, 2020
+                            <b>Last Updated</b>: August 26, 2021
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
