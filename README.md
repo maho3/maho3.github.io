@@ -1,7 +1,7 @@
 # Personal Website
 
 Welcome to my personal website!  
-Visit: [maho3.github.com](https://maho3.github.com)
+Visit: [maho3.github.io](https://maho3.github.io)
 
 ---
 
