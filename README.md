@@ -20,3 +20,8 @@ Download bibtex from Google Scholar into `bibliography/publications_scholar.bib`
 ```bash
 academic import ./bibliography/publications_ads.bib content/publication/ --compact
 ```
+
+## Docs and references
+- [Template repository](https://github.com/HugoBlox/theme-academic-cv)
+- [HugoBlox documentation](https://docs.hugoblox.com/)
+- [Hugo documentation](https://gohugo.io/documentation/)
