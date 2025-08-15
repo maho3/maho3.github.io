@@ -7,4 +7,5 @@ hugo_stats.json
 public/
 resources/
 .DS_Store
+SECRET_BIBTEX
 
