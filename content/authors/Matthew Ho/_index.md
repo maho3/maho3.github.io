@@ -173,6 +173,8 @@ awards:
 
 ## About Me
 
-I'm a postdoctoral researcher at Columbia University, specializing in artificial intelligence and its applications in astrophysics and cosmology.
+I'm a postdoctoral researcher at Columbia University, exploring the intersection of **artificial intelligence, astrophysics, and cosmology**. I build machine learning models for both **inference and emulation**, using a mix of **observational and simulated data** to tackle problems that range from black hole physics to the large-scale structure of the universe. My research focuses on robust and reliable ML for science, using **Bayesian statistics** and **explainable AI** to build trust in complex models.
 
-This page is currently under construction, but you can find more about my work and interests on my [Google Scholar](https://scholar.google.com/citations?user=TJBifHwAAAAJ&hl=en) and [GitHub](https://github.com/maho3).
+I co-lead the Implicit Likelihood Inference group within the [Learning the Universe collaboration](https://learning-the-universe.org/).
+
+My publications are on [Google Scholar](https://scholar.google.com/citations?user=TJBifHwAAAAJ&hl=en) and my open-source projects are on [GitHub](https://github.com/maho3). I'm always looking for new collaborators, so please feel free to [send me an email](mailto:matthew.annam.ho@gmail.com)!

@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Software
-      text: I believe in open research and enjoy building open-source tools for astronomical research. Most of my projects are publicly available on my [Github Page](https://github.com/maho3). Here are some software packages that I've developed or contributed to.
+      text: I build **open-source software** to support astronomical research. You can explore all my projects on [my Github page](https://github.com/maho3). Here are a few highlights!
       filters:
         folders:
           - project
