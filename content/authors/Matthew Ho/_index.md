@@ -11,7 +11,7 @@ last_name: Ho
 
 # Status emoji
 status:
-  icon: 🧮
+  icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -136,10 +136,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: French
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
