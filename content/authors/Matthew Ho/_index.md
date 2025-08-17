@@ -43,9 +43,11 @@ profiles:
     url: https://orcid.org/0000-0003-3207-8868
 
 interests:
-  - Astronomy
+  - Astrophysics
+  - Cosmology
+  - Numerical Simulations
   - Machine Learning
-  - Statistics
+  - Bayesian Statistics
 
 education:
   - area: PhD Physics
@@ -173,8 +175,9 @@ awards:
 
 ## About Me
 
-I'm a postdoctoral researcher at Columbia University, exploring the intersection of **artificial intelligence, astrophysics, and cosmology**. I build machine learning models for both **inference and emulation**, using a mix of **observational and simulated data** to tackle problems that range from black hole physics to the large-scale structure of the universe. My research focuses on robust and reliable ML for science, using **Bayesian statistics** and **explainable AI** to build trust in complex models.
-
+I'm a postdoctoral researcher at Columbia University, exploring the intersection of **artificial intelligence, astrophysics, and cosmology**. 
+I build machine learning models that analyze a mix of **observational and simulated data** for inference and emulation. My research addresses a broad spectrum of problems, including cosmological galaxy clustering, galaxy formation, galaxy clusters, and dust attenuation.
+My research focuses on robust and reliable ML for science, using **Bayesian statistics** and **explainable AI** to build trust in complex models.
 I co-lead the Implicit Likelihood Inference group within the [Learning the Universe collaboration](https://learning-the-universe.org/).
 
 My publications are on [Google Scholar](https://scholar.google.com/citations?user=TJBifHwAAAAJ&hl=en) and my open-source projects are on [GitHub](https://github.com/maho3). I'm always looking for new collaborators, so please feel free to [send me an email](mailto:matthew.annam.ho@gmail.com)!
