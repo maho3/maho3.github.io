@@ -176,6 +176,7 @@ awards:
 ## About Me
 
 I'm a postdoctoral researcher at Columbia University, exploring the intersection of **artificial intelligence, astrophysics, and cosmology**. 
+
 I build machine learning models that analyze a mix of **observational and simulated data** for inference and emulation. My research addresses a broad spectrum of problems, including cosmological galaxy clustering, galaxy formation, galaxy clusters, and dust attenuation.
 My research focuses on robust and reliable ML for science, using **Bayesian statistics** and **explainable AI** to build trust in complex models.
 I co-lead the Implicit Likelihood Inference group within the [Learning the Universe collaboration](https://learning-the-universe.org/).

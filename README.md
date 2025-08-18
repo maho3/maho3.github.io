@@ -15,7 +15,7 @@ Make sure you have `Hugo==0.136.6` extended installed ([link](https://github.com
 ## To construct publications
 [Tutorial](https://docs.hugoblox.com/reference/content-types/#publications)
 
-Download bibtex from Google Scholar into `bibliography/publications_scholar.bib`. Convert to ADS bibtex with `publications_ads.bib`. Then, convert to markdwon
+Download bibtex from Google Scholar into `bibliography/publications_scholar.bib`. Convert to ADS bibtex with `publications_ads.bib`. Then, convert to markdown
 
 ```bash
 academic import ./bibliography/publications_ads.bib content/publication/ --compact

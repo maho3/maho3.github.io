@@ -1,4 +1,23 @@
+@article{2025arXiv250213242S,
+ abstract = {We apply and test a field-level emulator for non-linear cosmic structure formation in a volume matching next-generation surveys. Inferring the cosmological parameters and initial conditions from which the particular galaxy distribution of our Universe was seeded can be achieved by comparing simulated data to observational data. Previous work has focused on building accelerated forward models that efficiently mimic these simulations. One of these accelerated forward models uses machine learning to apply a non-linear correction to the linear $z=0$ Zeldovich approximation (ZA) fields, closely matching the cosmological statistics in the $N$-body simulation. This emulator was trained and tested at $(h^{-1}{\rm Gpc})^3$ volumes, although cosmological inference requires significantly larger volumes. We test this emulator at $(3\ h^{-1}{\rm Gpc})^3$ by comparing emulator outputs to $N$-body simulations for eight unique cosmologies. We consider several summary statistics, applied to both the raw particle fields and the dark matter (DM) haloes. We find that the power spectrum, bispectrum and wavelet statistics of the raw particle fields agree with the $N$-body simulations within ${\sim} 5 \%$ at most scales. For the haloes, we find a similar agreement between the emulator and the $N$-body for power spectrum and bispectrum, though a comparison of the stacked profiles of haloes shows that the emulator has slight errors in the positions of particles in the highly non-linear interior of the halo. At these large $(3\ h^{-1}{\rm Gpc})^3$ volumes, the emulator can create $z=0$ particle fields in a thousandth of the time required for $N$-body simulations and will be a useful tool for large-scale cosmological inference. This is a Learning the Universe publication.},
+ adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+ adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250213242S},
+ archiveprefix = {arXiv},
+ author = {{Scoggins}, Matthew T. and {Ho}, Matthew and {Villaescusa-Navarro}, Francisco and {Jamieson}, Drew and {Doeser}, Ludvig and {Bryan}, Greg L.},
+ doi = {10.48550/arXiv.2502.13242},
+ eid = {arXiv:2502.13242},
+ eprint = {2502.13242},
+ journal = {arXiv e-prints},
+ keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+ month = {February},
+ pages = {arXiv:2502.13242},
+ primaryclass = {astro-ph.CO},
+ title = {{Learning the Universe: $3\ h^{-1}{\rm Gpc}$ Tests of a Field Level $N$-body Simulation Emulator}},
+ year = {2025}
+}
+
 @article{aguena2021clmm,
+ abstract = {We present the v1.0 release of CLMM, an open source PYTHON library for the estimation of the weak lensing masses of clusters of galaxies. CLMM is designed as a stand-alone toolkit of building blocks to enable end-to-end analysis pipeline validation for upcoming cluster cosmology analyses such as the ones that will be performed by the Vera C. Rubin Legacy Survey of Space and Time-Dark Energy Science Collaboration (LSST-DESC). Its purpose is to serve as a flexible, easy-to-install, and easy-to-use interface for both weak lensing simulators and observers and can be applied to real and mock data to study the systematics affecting weak lensing mass reconstruction. At the core of CLMM are routines to model the weak lensing shear signal given the underlying mass distribution of galaxy clusters and a set of data operations to prepare the corresponding data vectors. The theoretical predictions rely on existing software, used as backends in the code, that have been thoroughly tested and cross-checked. Combined theoretical predictions and data can be used to constrain the mass distribution of galaxy clusters as demonstrated in a suite of example Jupyter Notebooks shipped with the software and also available in the extensive online documentation.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.6092A},
  archiveprefix = {arXiv},
@@ -17,6 +36,7 @@
 }
 
 @article{bartlett2024bye,
+ abstract = {Bias models relating the dark matter field to the spatial distribution of halos are widely used in current cosmological analyses. Many models predict halos purely from the local Eulerian matter density, yet bias models in perturbation theory require other local properties. We assess the validity of assuming that only the local dark matter density can be used to predict the number density of halos in a model-independent way and in the nonperturbative regime. Utilizing N-body simulations, we study the properties of the halo counts field after spatial voxels with near-equal dark matter density have been permuted. If local-in-matter-density (LIMD) biasing were valid, the statistical properties of the permuted and unpermuted fields would be indistinguishable since both represent equally fair draws of the stochastic biasing model. If the Lagrangian radius is greater than approximately half the voxel size and for halos less massive than ∼10<SUP>15</SUP> h<SUP>‑1</SUP> M<SUB>☉</SUB>, we find the permuted halo field has a scale-dependent bias with greater than 25% more power on scales relevant for current surveys. These bias models remove small-scale power by not modeling correlations between neighboring voxels, which substantially boosts large-scale power to conserve the field's total variance. This conclusion is robust to the choice of initial conditions and cosmology. Assuming LIMD halo biasing cannot, therefore, reproduce the distribution of halos across a large range of scales and halo masses, no matter how complex the model. One must either allow the biasing to be a function of other quantities and/or remove the assumption that neighboring voxels are statistically independent.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024ApJ...977L..44B},
  archiveprefix = {arXiv},
@@ -36,6 +56,7 @@
 }
 
 @article{bourdin2024inpainting,
+ abstract = {Cosmological hydrodynamical simulations, while the current state-of-the art methodology for generating theoretical predictions for the large scale structures of the Universe, are among the most expensive simulation tools, requiring upwards of 100 millions CPU hours per simulation. N-body simulations, which exclusively model dark matter and its purely gravitational interactions, represent a less resource-intensive alternative, however, they do not model galaxies, and as such cannot directly be compared to observations. In this study, we use conditional score-based models to learn a mapping from N-body to hydrodynamical simulations, specifically from dark matter density fields to the observable distribution of galaxies. We demonstrate that our model is capable of generating galaxy fields statistically consistent with hydrodynamical simulations at a fraction of the computational cost, and demonstrate our emulator is significantly more precise than traditional emulators over the scales 0.36 $h\ \text{Mpc}^{-1}$ $\leq$ k $\leq$ 3.88 $h\ \text{Mpc}^{-1}$.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240800839B},
  archiveprefix = {arXiv},
@@ -53,6 +74,7 @@
 }
 
 @article{farahi2020aging,
+ abstract = {Cold dark matter model predicts that the large-scale structure grows hierarchically. Small dark matter haloes form first. Then, they grow gradually via continuous merger and accretion. These haloes host the majority of baryonic matter in the Universe in the form of hot gas and cold stellar phase. Determining how baryons are partitioned into these phases requires detailed modelling of galaxy formation and their assembly history. It is speculated that formation time of the same mass haloes might be correlated with their baryonic content. To evaluate this hypothesis, we employ haloes of mass above $10^{14}\, \mathrm{M}_{\odot }$ realized by TNG300 solution of the IllustrisTNG project. Formation time is not directly observable. Hence, we rely on the magnitude gap between the brightest and the fourth brightest halo galaxy member, which is shown that traces formation time of the host halo. We compute the conditional statistics of the stellar and gas content of haloes conditioned on their total mass and magnitude gap. We find a strong correlation between magnitude gap and gas mass, BCG stellar mass, and satellite galaxies stellar mass, but not the total stellar mass of halo. Conditioning on the magnitude gap can reduce the scatter about halo property-halo mass relation and has a significant impact on the conditional covariance. Reduction in the scatter can be as significant as 30 per cent, which implies more accurate halo mass prediction. Incorporating the magnitude gap has a potential to improve cosmological constraints using halo abundance and allows us to gain insight into the baryon evolution within these systems.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.1361F},
  archiveprefix = {arXiv},
@@ -71,6 +93,7 @@
 }
 
 @article{ho2019robust,
+ abstract = {We demonstrate the ability of convolutional neural networks (CNNs) to mitigate systematics in the virial scaling relation and produce dynamical mass estimates of galaxy clusters with remarkably low bias and scatter. We present two models, CNN<SUB>1D</SUB> and CNN<SUB>2D</SUB>, which leverage this deep learning tool to infer cluster masses from distributions of member galaxy dynamics. Our first model, CNN<SUB>1D</SUB>, infers cluster mass directly from the distribution of member galaxy line-of-sight velocities. Our second model, CNN<SUB>2D</SUB>, extends the input space of CNN<SUB>1D</SUB> to learn on the joint distribution of galaxy line-of-sight velocities and projected radial distances. We train each model as a regression over cluster mass using a labeled catalog of realistic mock cluster observations generated from the MultiDark simulation and UniverseMachine catalog. We then evaluate the performance of each model on an independent set of mock observations selected from the same simulated catalog. The CNN models produce cluster mass predictions with lognormal residuals of scatter as low as 0.132 dex, greater than a factor of 2 improvement over the classical M-σ power-law estimator. Furthermore, the CNN model reduces prediction scatter relative to similar machine-learning approaches by up to 17% while executing in drastically shorter training and evaluation times (by a factor of 30) and producing considerably more robust mass predictions (improving prediction stability under variations in galaxy sampling rate by 30%).},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2019ApJ...887...25H},
  archiveprefix = {arXiv},
@@ -90,6 +113,7 @@
 }
 
 @article{ho2021approximate,
+ abstract = {We study methods for reconstructing Bayesian uncertainties on dynamical mass estimates of galaxy clusters using convolutional neural networks (CNNs). We discuss the statistical background of approximate Bayesian neural networks and demonstrate how variational inference techniques can be used to perform computationally tractable posterior estimation for a variety of deep neural architectures. We explore how various model designs and statistical assumptions impact prediction accuracy and uncertainty reconstruction in the context of cluster mass estimation. We measure the quality of our model posterior recovery using a mock cluster observation catalog derived from the MultiDark simulation and UniverseMachine catalog. We show that approximate Bayesian CNNs produce highly accurate dynamical cluster mass posteriors. These model posteriors are log-normal in cluster mass and recover 68% and 90% confidence intervals to within 1% of their measured value. We note how this rigorous modeling of dynamical mass posteriors is necessary for using cluster abundance measurements to constrain cosmological parameters.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2021ApJ...908..204H},
  archiveprefix = {arXiv},
@@ -109,6 +133,7 @@
 }
 
 @article{ho2022deep,
+ abstract = {We study methods for reconstructing Bayesian uncertainties on dynamical mass estimates of galaxy clusters using convolutional neural networks (CNNs). We discuss the statistical background of approximate Bayesian neural networks and demonstrate how variational inference techniques can be used to perform computationally tractable posterior estimation for a variety of deep neural architectures. We explore how various model designs and statistical assumptions impact prediction accuracy and uncertainty reconstruction in the context of cluster mass estimation. We measure the quality of our model posterior recovery using a mock cluster observation catalog derived from the MultiDark simulation and UniverseMachine catalog. We show that approximate Bayesian CNNs produce highly accurate dynamical cluster mass posteriors. These model posteriors are log-normal in cluster mass and recover 68% and 90% confidence intervals to within 1% of their measured value. We note how this rigorous modeling of dynamical mass posteriors is necessary for using cluster abundance measurements to constrain cosmological parameters.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2021ApJ...908..204H},
  archiveprefix = {arXiv},
@@ -128,6 +153,7 @@
 }
 
 @article{ho2022dynamical,
+ abstract = {In 1933, Fritz Zwicky's famous investigations of the mass of the Coma cluster led him to infer the existence of dark matter<SUP>1</SUP>. His fundamental discoveries have proven to be foundational to modern cosmology; as we now know, such dark matter makes up 85% of the matter and 25% of the mass-energy content in the universe. Galaxy clusters like Coma are massive, complex systems of dark matter, hot ionized gas and thousands of galaxies, and serve as excellent probes of the dark matter distribution. However, empirical studies show that the total mass of such systems remains elusive and difficult to precisely constrain. Here we present new estimates for the dynamical mass of the Coma cluster based on Bayesian deep learning methodologies developed in recent years. Using our novel data-driven approach, we predict Coma's M<SUB>200c</SUB> mass to be 10<SUP>15.10±0.15</SUP> h<SUP>−1</SUP> M<SUB>⊙</SUB> within a radius of 1.78 ± 0.03 h<SUP>−1</SUP> Mpc of its centre. We show that our predictions are rigorous across multiple training datasets and statistically consistent with historical estimates of Coma's mass. This measurement reinforces our understanding of the dynamical state of the Coma cluster and advances rigorous analyses and verification methods for empirical applications of machine learning in astronomy.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2022NatAs...6..936H},
  archiveprefix = {arXiv},
@@ -145,6 +171,7 @@
 }
 
 @article{ho2023benchmarks,
+ abstract = {We evaluate the effectiveness of deep learning (DL) models for reconstructing the masses of galaxy clusters using X-ray photometry data from next-generation surveys. We establish these constraints using a catalogue of realistic mock eROSITA X-ray observations which use hydrodynamical simulations to model realistic cluster morphology, background emission, telescope response, and active galactic nucleus (AGN) sources. Using bolometric X-ray photon maps as input, DL models achieve a predictive mass scatter of $\sigma _{\ln M_\mathrm{500c}} = 17.8~{{\ \rm per\ cent}}$, a factor of two improvements on scalar observables such as richness N<SUB>gal</SUB>, 1D velocity dispersion σ<SUB>v,1D</SUB>, and photon count N<SUB>phot</SUB> as well as a 32 per cent improvement upon idealized, volume-integrated measurements of the bolometric X-ray luminosity L<SUB>X</SUB>. We then show that extending this model to handle multichannel X-ray photon maps, separated in low, medium, and high energy bands, further reduces the mass scatter to 16.2 per cent. We also tested a multimodal DL model incorporating both dynamical and X-ray cluster probes and achieved marginal gains at a mass scatter of 15.9 per cent. Finally, we conduct a quantitative interpretability study of our DL models and find that they greatly down-weight the importance of pixels in the centres of clusters and at the location of AGN sources, validating previous claims of DL modelling improvements and suggesting practical and theoretical benefits for using DL in X-ray mass inference.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.3289H},
  archiveprefix = {arXiv},
@@ -163,6 +190,7 @@
 }
 
 @article{ho2023information,
+ abstract = {We present the information-ordered bottleneck (IOB), a neural layer designed to adaptively compress data into latent variables ordered by likelihood maximization. Without retraining, IOB nodes can be truncated at any bottleneck width, capturing the most crucial information in the first latent variables. Unifying several previous approaches, we show that IOBs achieve near-optimal compression for a given encoding architecture and can assign ordering to latent signals in a manner that is semantically meaningful. IOBs demonstrate a remarkable ability to compress embeddings of image and text data, leveraging the performance of SOTA architectures such as CNNs, transformers, and diffusion models. Moreover, we introduce a novel theory for estimating global intrinsic dimensionality with IOBs and show that they recover SOTA dimensionality estimates for complex synthetic data. Furthermore, we showcase the utility of these models for exploratory analysis through applications on heterogeneous datasets, enabling computer-aided discovery of dataset complexity.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230511213H},
  archiveprefix = {arXiv},
@@ -179,13 +207,8 @@
  year = {2023}
 }
 
-@article{ho2024information,
- author = {Ho, Matthew and Zhao, Xiaosheng and Wandelt, Benjamin Dan},
- title = {Information-Ordered Bottlenecks for Adaptive Dimensionality Reduction},
- year = {2024}
-}
-
 @article{ho2024ltu,
+ abstract = {This paper presents the Learning the Universe Implicit Likelihood Inference (LtU-ILI) pipeline, a codebase for rapid, user-friendly, and cutting-edge machine learning (ML) inference in astrophysics and cosmology. The pipeline includes software for implementing various neural architectures, training schema, priors, and density estimators in a manner easily adaptable to any research workflow. It includes comprehensive validation metrics to assess posterior estimate coverage, enhancing the reliability of inferred results. Additionally, the pipeline is easily parallelizable, designed for efficient exploration of modeling hyperparameters. To demonstrate its capabilities, we present real applications across a range of astrophysics and cosmology problems, such as: estimating galaxy cluster masses from X-ray photometry; inferring cosmology from matter power spectra and halo point clouds; characterising progenitors in gravitational wave signals; capturing physical dust parameters from galaxy colors and luminosities; and establishing properties of semi-analytic models of galaxy formation. We also include exhaustive benchmarking and comparisons of all implemented methods as well as discussions about the challenges and pitfalls of ML inference in astronomical sciences. All code and examples are made publicly available at https://github.com/maho3/ltu-ili.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024OJAp....7E..54H},
  archiveprefix = {arXiv},
@@ -204,30 +227,43 @@
 }
 
 @article{ho2025ordered,
- author = {Ho, Matthew and Zhao, Xiaosheng and Wandelt, Benjamin Dan},
+ abstract = {We present the information-ordered bottleneck (IOB), a neural layer designed to adaptively compress data into latent variables ordered by likelihood maximization. Without retraining, IOB nodes can be truncated at any bottleneck width, capturing the most crucial information in the first latent variables. Unifying several prior approaches, we demonstrate that IOB models achieve efficient compression of essential information for a given encoding architecture, while also assigning a semantically meaningful ordering to latent representations. IOBs demonstrate a remarkable ability to compress embeddings of high-dimensional image and text data, leveraging the performance of SOTA architectures such as CNNs, transformers, and diffusion models. Moreover, we introduce a novel theory for estimating global intrinsic dimensionality with IOBs and show that they recover SOTA dimensionality estimates for complex synthetic data. Furthermore, we showcase the utility of these models for exploratory analysis through applications on heterogeneous datasets, enabling computer-aided discovery of dataset complexity.},
+ adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+ adsurl = {https://ui.adsabs.harvard.edu/abs/2025MLS&T...6c5010H},
+ author = {{Ho}, Matthew and {Zhao}, Xiaosheng and {Wandelt}, Benjamin D.},
+ doi = {10.1088/2632-2153/ade94d},
+ eid = {035010},
  journal = {Machine Learning: Science and Technology},
- title = {Ordered embeddings and intrinsic dimensionalities with information-ordered bottlenecks},
+ keywords = {neural architectures, component analysis, intrinsic dimensionality, unsupervised learning, interpretability, embedding spaces, adaptive compression},
+ month = {September},
+ number = {3},
+ pages = {035010},
+ title = {{Ordered embeddings and intrinsic dimensionalities with information-ordered bottlenecks}},
+ volume = {6},
  year = {2025}
 }
 
 @article{hsu2024reconstructing,
+ abstract = {We present a novel approach to reconstruct gas and dark matter projected density maps of galaxy clusters using score-based generative modeling. Our diffusion model takes in mock SZ and X-ray images as conditional inputs, and generates realizations of corresponding gas and dark matter maps by sampling from a learned data posterior. We train and validate the performance of our model by using mock data from a hydrodynamical cosmological simulation. The model accurately reconstructs both the mean and spread of the radial density profiles in the spatial domain, indicating that the model is able to distinguish between clusters of different mass sizes. In the spectral domain, the model achieves close-to-unity values for the bias and cross-correlation coefficients, indicating that the model can accurately probe cluster structures on both large and small scales. Our experiments demonstrate the ability of score models to learn a strong, nonlinear, and unbiased mapping between input observables and fundamental density distributions of galaxy clusters. These diffusion models can be further fine-tuned and generalized to not only take in additional observables as inputs, but also real observations and predict unknown density distributions of galaxy clusters.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
- adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241002857H},
+ adsurl = {https://ui.adsabs.harvard.edu/abs/2025OJAp....8E..92H},
  archiveprefix = {arXiv},
  author = {{Hsu}, Alan and {Ho}, Matthew and {Lin}, Joyce and {Markey}, Carleen and {Ntampaka}, Michelle and {Trac}, Hy and {P{\'o}czos}, Barnab{\'a}s},
- doi = {10.48550/arXiv.2410.02857},
- eid = {arXiv:2410.02857},
+ doi = {10.33232/001c.142147},
+ eid = {92},
  eprint = {2410.02857},
- journal = {arXiv e-prints},
+ journal = {The Open Journal of Astrophysics},
  keywords = {Cosmology and Nongalactic Astrophysics, Machine Learning},
- month = {October},
- pages = {arXiv:2410.02857},
+ month = {July},
+ pages = {92},
  primaryclass = {astro-ph.CO},
  title = {{Reconstructing Galaxy Cluster Mass Maps using Score-based Generative Modeling}},
- year = {2024}
+ volume = {8},
+ year = {2025}
 }
 
 @article{huppenkothen2023constructing,
+ abstract = {Machine learning has rapidly become a tool of choice for the astronomical community. It is being applied across a wide range of wavelengths and problems, from the classification of transients to neural network emulators of cosmological simulations, and is shifting paradigms about how we generate and report scientific results. At the same time, this class of method comes with its own set of best practices, challenges, and drawbacks, which, at present, are often reported on incompletely in the astrophysical literature. With this paper, we aim to provide a primer to the astronomical community, including authors, reviewers, and editors, on how to implement machine learning models and report their results in a way that ensures the accuracy of the results, reproducibility of the findings, and usefulness of the method.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv231012528H},
  archiveprefix = {arXiv},
@@ -245,6 +281,7 @@
 }
 
 @article{kim2024metallicity,
+ abstract = {We present a new suite of numerical simulations of the star-forming interstellar medium (ISM) in galactic disks using the TIGRESS-NCR framework. Distinctive aspects of our simulation suite are (1) sophisticated and comprehensive numerical treatments of essential physical processes including magnetohydrodynamics, self-gravity, and galactic differential rotation, as well as photochemistry, cooling, and heating coupled with direct ray-tracing UV radiation transfer and resolved supernova feedback and (2) wide parameter coverage including the variation in metallicity over <inline-formula> <mml:math overflow="scroll"><mml:mi>Z</mml:mi><mml:mo accent="false">'</mml:mo><mml:mo>≡</mml:mo><mml:mi>Z</mml:mi><mml:mo stretchy="true">/</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mo>⊙</mml:mo></mml:msub><mml:mo>∼</mml:mo><mml:mn>0.1</mml:mn><mml:mo>-</mml:mo><mml:mn>3</mml:mn></mml:math> </inline-formula>, gas surface density Σ<SUB>gas</SUB> ∼ 5–150 M <SUB>⊙</SUB> pc<SUP>‑2</SUP>, and stellar surface density Σ<SUB>star</SUB> ∼ 1–50 M <SUB>⊙</SUB> pc<SUP>‑2</SUP>. The range of emergent star formation rate surface density is Σ<SUB>SFR</SUB> ∼ 10<SUP>‑4</SUP>–0.5 M <SUB>⊙</SUB> kpc<SUP>‑2</SUP> yr<SUP>‑1</SUP>, and ISM total midplane pressure is P <SUB>tot</SUB>/k <SUB> B </SUB> = 10<SUP>3</SUP>–10<SUP>6</SUP> cm<SUP>‑3</SUP> K, with P <SUB>tot</SUB> equal to the ISM weight <inline-formula> <mml:math overflow="scroll"><mml:mi class="MJX-tex-calligraphic" mathvariant="script">W</mml:mi></mml:math> </inline-formula>. For given Σ<SUB>gas</SUB> and Σ<SUB>star</SUB>, we find <inline-formula> <mml:math overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">Σ</mml:mi></mml:mrow><mml:mrow><mml:mi>SFR</mml:mi></mml:mrow></mml:msub><mml:mo>∝</mml:mo><mml:mi>Z</mml:mi><mml:msup><mml:mrow><mml:mo accent="true">'</mml:mo></mml:mrow><mml:mrow><mml:mn>0.3</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>. We provide an interpretation based on the pressure-regulated feedback-modulated (PRFM) star formation theory. The total midplane pressure consists of thermal, turbulent, and magnetic stresses. We characterize feedback modulation in terms of the yield ϒ, defined as the ratio of each stress to Σ<SUB>SFR</SUB>. The thermal feedback yield varies sensitively with both weight and metallicity as <inline-formula> <mml:math overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">ϒ</mml:mi></mml:mrow><mml:mrow><mml:mi>th</mml:mi></mml:mrow></mml:msub><mml:mo>∝</mml:mo><mml:msup><mml:mrow><mml:mi class="MJX-tex-calligraphic" mathvariant="script">W</mml:mi></mml:mrow><mml:mrow><mml:mo>‑</mml:mo><mml:mn>0.46</mml:mn></mml:mrow></mml:msup><mml:mi>Z</mml:mi><mml:msup><mml:mrow><mml:mo accent="true">'</mml:mo></mml:mrow><mml:mrow><mml:mo>‑</mml:mo><mml:mn>0.53</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>, while the combined turbulent and magnetic feedback yield shows weaker dependence <inline-formula> <mml:math overflow="scroll"><mml:msub><mml:mrow><mml:mi mathvariant="normal">ϒ</mml:mi></mml:mrow><mml:mrow><mml:mi>turb</mml:mi><mml:mo>+</mml:mo><mml:mi>mag</mml:mi></mml:mrow></mml:msub><mml:mo>∝</mml:mo><mml:msup><mml:mrow><mml:mi class="MJX-tex-calligraphic" mathvariant="script">W</mml:mi></mml:mrow><mml:mrow><mml:mo>‑</mml:mo><mml:mn>0.22</mml:mn></mml:mrow></mml:msup><mml:mi>Z</mml:mi><mml:msup><mml:mrow><mml:mo accent="true">'</mml:mo></mml:mrow><mml:mrow><mml:mo>‑</mml:mo><mml:mn>0.18</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>. The reduction in Σ<SUB>SFR</SUB> at low metallicity is due mainly to enhanced thermal feedback yield, resulting from reduced attenuation of UV radiation. With the metallicity-dependent calibrations we provide, PRFM theory can be used for a new subgrid star formation prescription in cosmological simulations where the ISM is unresolved.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024ApJ...972...67K},
  archiveprefix = {arXiv},
@@ -263,14 +300,8 @@
  year = {2024}
 }
 
-@article{legin2024mnras,
- author = {Legin, R and Ho, M and Lemos, P and others},
- journal = {L173},
- title = {MNRAS: Letters 527},
- year = {2024}
-}
-
 @article{legin2024posterior,
+ abstract = {Reconstructing the initial conditions of the universe is a key problem in cosmology. Methods based on simulating the forward evolution of the universe have provided a way to infer initial conditions consistent with present-day observations. However, due to the high complexity of the inference problem, these methods either fail to sample a distribution of possible initial density fields or require significant approximations in the simulation model to be tractable, potentially leading to biased results. In this work, we propose the use of score-based generative models to sample realizations of the early universe given present-day observations. We infer the initial density field of full high-resolution dark matter N-body simulations from the present-day density field and verify the quality of produced samples compared to the ground truth based on summary statistics. The proposed method is capable of providing plausible realizations of the early universe density field from the initial conditions posterior distribution marginalized over cosmological parameters and can sample orders of magnitude faster than current state-of-the-art methods.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024MNRAS.527L.173L},
  archiveprefix = {arXiv},
@@ -289,6 +320,7 @@
 }
 
 @article{lovell2024learning,
+ abstract = {We perform the first direct cosmological and astrophysical parameter inference from the combination of galaxy luminosity functions and colours using a simulation based inference approach. Using the Synthesizer code we simulate the dust attenuated ultraviolet--near infrared stellar emission from galaxies in thousands of cosmological hydrodynamic simulations from the CAMELS suite, including the Swift-EAGLE, Illustris-TNG, Simba &amp; Astrid galaxy formation models. For each galaxy we calculate the rest-frame luminosity in a number of photometric bands, including the SDSS $\textit{ugriz}$ and GALEX FUV &amp; NUV filters; this dataset represents the largest catalogue of synthetic photometry based on hydrodynamic galaxy formation simulations produced to date, totalling &gt;200 million sources. From these we compile luminosity functions and colour distributions, and find clear dependencies on both cosmology and feedback. We then perform simulation based (likelihood-free) inference using these distributions, and obtain constraints on both cosmological and astrophysical parameters. Both colour distributions and luminosity functions provide complementary information on certain parameters when performing inference. Most interestingly we achieve constraints on $\sigma_8$, describing the clustering of matter. This is attributable to the fact that the photometry encodes the star formation--metal enrichment history of each galaxy; galaxies in a universe with a higher $\sigma_8$ tend to form earlier and have higher metallicities, which leads to redder colours. We find that a model trained on one galaxy formation simulation generalises poorly when applied to another, and attribute this to differences in the subgrid prescriptions, and lack of flexibility in our emission modelling. The photometric catalogues are publicly available at: https://camels.readthedocs.io/ .},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241113960L},
  archiveprefix = {arXiv},
@@ -306,6 +338,7 @@
 }
 
 @article{lue2025cosmology,
+ abstract = {Cosmological simulations like CAMELS and IllustrisTNG characterize hundreds of thousands of galaxies using various internal properties. Previous studies have demonstrated that machine learning can be used to infer the cosmological parameter Ω<SUB>m</SUB> from the internal properties of even a single randomly selected simulated galaxy. This ability was hypothesized to originate from galaxies occupying a low-dimensional manifold within a higher-dimensional galaxy property space, which shifts with variations in Ω<SUB>m</SUB>. In this work, we investigate how galaxies occupy the high-dimensional galaxy property space, particularly the effect of Ω<SUB>m</SUB> and other cosmological and astrophysical parameters on the putative manifold. We achieve this by using an autoencoder with an information-ordered bottleneck, a neural layer with adaptive compression, to perform dimensionality reduction on individual galaxy properties from CAMELS simulations, which are run with various combinations of cosmological and astrophysical parameters. We find that for an autoencoder trained on the fiducial set of parameters, the reconstruction error increases significantly when the test set deviates from fiducial values of Ω<SUB>m</SUB> and A<SUB>SN1</SUB>, indicating that these parameters shift galaxies off the fiducial manifold. In contrast, variations in other parameters such as σ<SUB>8</SUB> cause negligible error changes, suggesting galaxies shift along the manifold. These findings provide direct evidence that the ability to infer Ω<SUB>m</SUB> from individual galaxies is tied to the way Ω<SUB>m</SUB> shifts the manifold. Physically, this implies that parameters like σ<SUB>8</SUB> produce galaxy property changes resembling natural scatter, while parameters like Ω<SUB>m</SUB> and A<SUB>SN1</SUB> create unsampled properties, extending beyond the natural scatter in the fiducial model.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2025ApJ...986..133L},
  archiveprefix = {arXiv},
@@ -325,6 +358,7 @@
 }
 
 @article{modi2025sensitivity,
+ abstract = {Simulation-based inference (SBI) is a promising approach to leverage high-fidelity cosmological simulations and extract information from the non-Gaussian, non-linear scales that cannot be modelled analytically. However, scaling SBI to the next generation of cosmological surveys faces the computational challenge of requiring a large number of accurate simulations over a wide range of cosmologies, while simultaneously encompassing large cosmological volumes at high resolution. This challenge can potentially be mitigated by balancing the accuracy and computational cost for different components of the forward model while ensuring robust inference. To guide our steps in this, we perform a sensitivity analysis of SBI for galaxy clustering on various components of the cosmological simulations: gravity model, halo finder, and the galaxy-halo distribution models (halo-occupation distribution, HOD). We infer the <inline-formula><tex-math id="TM0001" notation="LaTeX">$\sigma _8$</tex-math></inline-formula> and <inline-formula><tex-math id="TM0002" notation="LaTeX">$\Omega _\mathrm{ m}$</tex-math></inline-formula> using galaxy power spectrum multipoles and the bispectrum monopole assuming a galaxy number density expected from the luminous red galaxies observed using the Dark Energy Spectroscopy Instrument. We find that SBI is insensitive to changing gravity model between N-body simulations and particle mesh simulations. However, changing the halo finder from friends of friends to Rockstar can lead to biased estimate of <inline-formula><tex-math id="TM0004" notation="LaTeX">$\sigma _8$</tex-math></inline-formula> based on the bispectrum. For galaxy models, training SBI on more complex HOD leads to consistent inference for less complex HOD models, but SBI trained on simpler HOD models fails when applied to analyse data from a more complex HOD model. Based on our results, we discuss the outlook on cosmological simulations with a focus on applying SBI approaches to future galaxy surveys.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2025MNRAS.536..254M},
  archiveprefix = {arXiv},
@@ -343,6 +377,7 @@
 }
 
 @inproceedings{ntampaka2021building,
+ abstract = {Astronomy is entering an era of data-driven discovery, due in part to modern machine learning (ML) techniques enabling powerful new ways to interpret observations. This shift in our scientific approach requires us to consider whether we can trust the black box. Here, we overview methods for an often-overlooked step in the development of ML models: building community trust in the algorithms. Trust is an essential ingredient not just for creating more robust data analysis techniques, but also for building confidence within the astronomy community to embrace machine learning methods and results.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024ASPC..535..123N},
  author = {{Ntampaka}, M. and {Ho}, M. and {Nord}, B.},
@@ -357,6 +392,7 @@
 }
 
 @article{pandey2023sensitivity,
+ abstract = {Simulation-based inference (SBI) is a promising approach to leverage high-fidelity cosmological simulations and extract information from the non-Gaussian, non-linear scales that cannot be modelled analytically. However, scaling SBI to the next generation of cosmological surveys faces the computational challenge of requiring a large number of accurate simulations over a wide range of cosmologies, while simultaneously encompassing large cosmological volumes at high resolution. This challenge can potentially be mitigated by balancing the accuracy and computational cost for different components of the forward model while ensuring robust inference. To guide our steps in this, we perform a sensitivity analysis of SBI for galaxy clustering on various components of the cosmological simulations: gravity model, halo finder, and the galaxy-halo distribution models (halo-occupation distribution, HOD). We infer the <inline-formula><tex-math id="TM0001" notation="LaTeX">$\sigma _8$</tex-math></inline-formula> and <inline-formula><tex-math id="TM0002" notation="LaTeX">$\Omega _\mathrm{ m}$</tex-math></inline-formula> using galaxy power spectrum multipoles and the bispectrum monopole assuming a galaxy number density expected from the luminous red galaxies observed using the Dark Energy Spectroscopy Instrument. We find that SBI is insensitive to changing gravity model between N-body simulations and particle mesh simulations. However, changing the halo finder from friends of friends to Rockstar can lead to biased estimate of <inline-formula><tex-math id="TM0004" notation="LaTeX">$\sigma _8$</tex-math></inline-formula> based on the bispectrum. For galaxy models, training SBI on more complex HOD leads to consistent inference for less complex HOD models, but SBI trained on simpler HOD models fails when applied to analyse data from a more complex HOD model. Based on our results, we discuss the outlook on cosmological simulations with a focus on applying SBI approaches to future galaxy surveys.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2025MNRAS.536..254M},
  archiveprefix = {arXiv},
@@ -375,6 +411,7 @@
 }
 
 @article{pandey2024charm,
+ abstract = {To maximize the amount of information extracted from cosmological datasets, simulations that accurately represent these observations are necessary. However, traditional simulations that evolve particles under gravity by estimating particle-particle interactions (N-body simulations) are computationally expensive and prohibitive to scale to the large volumes and resolutions necessary for the upcoming datasets. Moreover, modeling the distribution of galaxies typically involves identifying virialized dark matter halos, which is also a time- and memory-consuming process for large N-body simulations, further exacerbating the computational cost. In this study, we introduce CHARM, a novel method for creating mock halo catalogs by matching the spatial, mass, and velocity statistics of halos directly from the large-scale distribution of the dark matter density field. We develop multi-stage neural spline flow-based networks to learn this mapping at redshift z=0.5 directly with computationally cheaper low-resolution particle mesh simulations instead of relying on the high-resolution N-body simulations. We show that the mock halo catalogs and painted galaxy catalogs have the same statistical properties as obtained from $N$-body simulations in both real space and redshift space. Finally, we use these mock catalogs for cosmological inference using redshift-space galaxy power spectrum, bispectrum, and wavelet-based statistics using simulation-based inference, performing the first inference with accelerated forward model simulations and finding unbiased cosmological constraints with well-calibrated posteriors. The code was developed as part of the Simons Collaboration on Learning the Universe and is publicly available at \url{https://github.com/shivampcosmo/CHARM}.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240909124P},
  archiveprefix = {arXiv},
@@ -392,6 +429,7 @@
 }
 
 @article{ricketts2025rtfast,
+ abstract = {Bayesian analysis has begun to be more widely adopted in X-ray spectroscopy, but it has largely been constrained to relatively simple physical models due to limitations in X-ray modelling software and computation time. As a result, Bayesian analysis of numerical models with high physics complexity have remained out of reach. This is a challenge, for example when modelling the X-ray emission of accreting black hole X-ray binaries, where the slow model computations severely limit explorations of parameter space and may bias the inference of astrophysical parameters. Here, we present RTFAST-Spectra: a neural network emulator that acts as a drop in replacement for the spectral portion of the black hole X-ray reverberation model RTDIST. This is the first emulator for the reltrans model suite and the first emulator for a state-of-the-art X-ray reflection model incorporating relativistic effects with 17 physically meaningful model parameters. We use principal component analysis to create a light-weight neural network that is able to preserve correlations between complex atomic lines and simple continuum, enabling consistent modelling of key parameters of scientific interest. We achieve a <inline-formula><tex-math id="TM0001" notation="LaTeX">$\mathcal {O}(10^2)$</tex-math></inline-formula> times speed up over the original model in the most conservative conditions with <inline-formula><tex-math id="TM0002" notation="LaTeX">$\mathcal {O}(1~{{\ \rm per\ cent}})$</tex-math></inline-formula> precision over all 17 free parameters in the original numerical model, taking full posterior fits from months to hours. We employ Markov Chain Monte Carlo sampling to show how we can better explore the posteriors of model parameters in simulated data and discuss the complexities in interpreting the model when fitting real data.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2025MNRAS.538.1096R},
  archiveprefix = {arXiv},
@@ -409,14 +447,8 @@
  year = {2025}
 }
 
-@article{scoggins2025learning,
- author = {Scoggins, Matthew T and Ho, Matthew and Villaescusa-Navarro, Francisco and Jamieson, Drew and Doeser, Ludvig and Bryan, Greg L},
- journal = {arXiv preprint arXiv:2502.13242},
- title = {Learning the Universe: $3$\backslash$h\^{}$\{$-1$\}$$\{$$\backslash$rm Gpc$\}$ $ Tests of a Field Level $ N $-body Simulation Emulator},
- year = {2025}
-}
-
 @article{soltis2022machine,
+ abstract = {The eROSITA X-ray telescope, launched in 2019, is predicted to observe roughly 100,000 galaxy clusters. Follow-up observations of these clusters from Chandra, for example, will be needed to resolve outstanding questions about galaxy cluster physics. Deep Chandra cluster observations are expensive, and it is unfeasible to follow up every eROSITA cluster, therefore the objects that are chosen for follow-up must be chosen with care. To address this, we have developed an algorithm for predicting longer-duration, background-free observations, based on mock eROSITA observations. We make use of the hydrodynamic cosmological simulation Magneticum, simulate eROSITA instrument conditions using SIXTE, and apply a novel convolutional neural network to output a deep Chandra-like "super observation" of each cluster in our simulation sample. Any follow-up merit assessment tool should be designed with a specific use case in mind; our model produces observations that accurately and precisely reproduce the cluster morphology, which is a critical ingredient for determining a cluster's dynamical state and core type. Our model will advance our understanding of galaxy clusters by improving follow-up selection, and it demonstrates that image-to-image deep learning algorithms are a viable method for simulating realistic follow-up observations.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2022ApJ...940...60S},
  archiveprefix = {arXiv},
@@ -436,6 +468,7 @@
 }
 
 @article{sommovigo2025learning,
+ abstract = {Understanding the impact of dust on the spectral energy distributions (SEDs) of galaxies is crucial for inferring their physical properties and for studying the nature of interstellar dust. We analyze dust attenuation curves for $\sim 6400$ galaxies ($M_{\star} \sim 10^9 - 10^{11.5}\,M_{\odot}$) at $z=0.07$ in the IllustrisTNG50 and TNG100 simulations. Using radiative transfer post-processing, we generate synthetic attenuation curves and fit them with a parametric model that captures known extinction and attenuation laws (e.g., Calzetti, MW, SMC, LMC) and more exotic forms. We present the distributions of the best-fitting parameters: UV slope ($c_1$), optical-to-NIR slope ($c_2$), FUV slope ($c_3$), 2175 Angstrom bump strength ($c_4$), and normalization ($A_{\rm V}$). Key correlations emerge between $A_{\rm V}$ and the star formation rate surface density $\Sigma_{\rm SFR}$, as well as the UV slope $c_1$. The UV and FUV slopes ($c_1, c_3$) and the bump strength and visual attenuation ($c_4, A_{\rm V}$) exhibit robust internal correlations. Using these insights from simulations, we provide a set of scaling relations that predict a galaxy's median (averaged over line of sight) dust attenuation curve based solely on its $\Sigma_{\rm SFR}$ and/or $A_{\rm V}$. These predictions agree well with observed attenuation curves from the GALEX-SDSS-WISE Legacy Catalog despite minor differences in bump strength. This study delivers the most comprehensive library of synthetic attenuation curves for local galaxies, providing a foundation for physically motivated priors in SED fitting and galaxy inference studies, such as those performed as part of the Learning the Universe Collaboration.},
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250213240S},
  archiveprefix = {arXiv},
