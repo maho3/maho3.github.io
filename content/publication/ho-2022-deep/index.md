@@ -96,5 +96,3 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2006.13231
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

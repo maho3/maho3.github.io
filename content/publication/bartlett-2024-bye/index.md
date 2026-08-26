@@ -100,5 +100,3 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2405.00635
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

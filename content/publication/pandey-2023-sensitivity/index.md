@@ -99,5 +99,3 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2309.15071
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

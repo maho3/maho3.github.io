@@ -114,5 +114,3 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2107.10857
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
