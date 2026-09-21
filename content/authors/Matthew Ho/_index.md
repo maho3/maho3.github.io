@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Member
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Columbia University
-    url: https://www.astro.columbia.edu/
+  - name: Institute for Advanced Study
+    url: https://www.ias.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -175,7 +175,7 @@ awards:
 
 ## About Me
 
-I'm a postdoctoral researcher at Columbia University, exploring the intersection of **artificial intelligence, astrophysics, and cosmology**. 
+I'm a Member at the [Institute for Advanced Study](https://www.ias.edu/), exploring the intersection of **artificial intelligence, astrophysics, and cosmology**. 
 
 I build machine learning models that analyze a mix of **observational and simulated data** for inference and emulation. My research addresses a broad spectrum of problems, including cosmological galaxy clustering, galaxy formation, galaxy clusters, and dust attenuation.
 My research focuses on robust and reliable ML for science, using **Bayesian statistics** and **explainable AI** to build trust in complex models.
