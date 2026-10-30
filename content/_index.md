@@ -18,6 +18,9 @@ sections:
       button:
         text: Download CV
         url: uploads/HoMatthew_CV.pdf
+      button2:
+        text: ADS Library
+        url: https://ui.adsabs.harvard.edu/public-libraries/sSuEkJWCTZOuBEciWPiNuw
     design:
       css_class: dark
       background:

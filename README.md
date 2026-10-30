@@ -13,13 +13,13 @@ hugo server -D
 Make sure you have `Hugo==0.136.6` extended installed ([link](https://github.com/gohugoio/hugo/releases/tag/v0.136.5)).
 
 ## To construct publications
-[Tutorial](https://docs.hugoblox.com/reference/content-types/#publications)
-
-Download bibtex from Google Scholar into `bibliography/publications_scholar.bib`. Convert to ADS bibtex with `publications_ads.bib`. Then, convert to markdown
+Publications are synced from my [ADS library](https://ui.adsabs.harvard.edu/public-libraries/sSuEkJWCTZOuBEciWPiNuw). With `$ADS_API_TOKEN` set (or the token in `bibliography/SECRET_BIBTEX`), run
 
 ```bash
-academic import ./bibliography/publications_ads.bib content/publication/ --compact
+conda run -n cv-ads python bibliography/sync_ads.py
 ```
+
+This rewrites `content/publication/*/index.md` and `cite.bib` (keeping slugs, `featured.png`, tags, and other hand-set fields), writes `bibliography/publications_ads.bib`, and lists any folders with no matching ADS record. Featured papers are set by `FEATURED` in the script; papers not on ADS are hand-written folders listed in `MANUAL`.
 
 ## Docs and references
 - [Template repository](https://github.com/HugoBlox/theme-academic-cv)
